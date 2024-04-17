@@ -9,12 +9,12 @@ I wrote this to download lyrics for my music and be ready for the upcoming
 
 ## Installation
 
-```
-# cargo install lrc-dl --git https://github.com/bahlo/shambles
+```sh
+cargo install lrc-dl --git https://github.com/bahlo/shambles
 ```
 
 ## Usage
 
-```
-$ lrc-dl /absolute/path/to/audiofile.flac
+```sh
+lrc-dl /absolute/path/to/audiofile.flac
 ```
