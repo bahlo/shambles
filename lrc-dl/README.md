@@ -7,6 +7,12 @@ but with either `.lrc` or `.txt`.
 I wrote this to download lyrics for my music and be ready for the upcoming
 [lyrics support in Jellyfin](https://github.com/jellyfin/jellyfin/pull/8381).
 
+## Installation
+
+```
+# cargo install lrc-dl --git https://github.com/bahlo/shambles
+```
+
 ## Usage
 
 ```
