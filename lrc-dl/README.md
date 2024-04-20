@@ -18,3 +18,10 @@ cargo install lrc-dl --git https://github.com/bahlo/shambles
 ```sh
 lrc-dl /absolute/path/to/audiofile.flac
 ```
+
+I always run this bash command to run this for all music files in a directory
+(replace `.flag` with whatever extension your music has):
+
+```sh
+ls *.flac | while read filename; do lrc-dl "$(pwd)/$filename"; done
+```
